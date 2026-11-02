@@ -1,0 +1,23 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    flex: 0 0 80px;
+    /* fixed height */
+    background: lightblue;
+}
+
+main {
+    flex: 1;
+    /* takes remaining space */
+    background: lightgray;
+}
+
+footer {
+    flex: 0 0 60px;
+    /* fixed height */
+    background: lightgreen;
+}
